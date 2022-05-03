@@ -1,0 +1,244 @@
+<body>
+    <header>
+        <img src="assets/Header.png" class="img-fluid" height="auto" alt=" ">
+    </header>
+    <!-- Barra navegación-->
+    <nav class="navbar navbar-expand-lg navbar navbar-light" style="background-color: #e3f2fd;">
+        <a class="navbar-brand" href="#">
+            <img src="assets/logo.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">UNIB.E
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="btn dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Carreras
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="carreras-pregrado">Pregrado</a>
+                        <a class="dropdown-item" href="#">Posgrado</a>
+                    </div>
+                </li>
+
+
+                <li class="nav-item dropdown">
+                    <a class="btn dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Educación Continua
+                    </a>
+
+
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="cursos">Cursos</a>
+                        <a class="dropdown-item" href="inscripcion" target="_blank">Ficha Inscripción</a>
+                        <a class="dropdown-item" href="solicitud-cursos" target="_blank">Solicitud</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="documentos">Cargar Documentos</a>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <!-- Slides-->
+    <div class="carusel">
+
+        <div id="carousel-1" class="carousel slide" data-ride="carousel">
+            <!-- Indicadores -->
+
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-1" data-slide-to="1"></li>
+                <li data-target="#carousel-1" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Contenedores de los slide -->
+            <div class="inflex">
+                <div class="carousel-inner">
+                    <div class=" carousel-item active" style="background-image: url('assets/primer.jpg')">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+
+                    <div class=" carousel-item" style="background-image: url('assets/segundo.jpg')">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="carousel-title">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" carousel-item" style="background-image: url('assets/tercer.jpg')">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controles -->
+
+            <a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+
+            <a class="carousel-control-next" href="#carousel-1" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <section>
+
+        <div class="menu2">
+            <div class="container-fluid">
+
+                <div class="row row-cols-1 row-cols-md-3">
+                    <div class="col mb-4">
+                        <div class="card1 h-100">
+                            <img src="assets/pregrado.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Carreras Pregrado</h5>
+                                <p class="card-text">La Universidad Iberoamericana del Ecuador ofrece carreras de tecer nivel de alta calidad. Nuestras facultades ofrecen diversas carreras que 
+                                    se ajustan a tu perfil vocacional. Puedes acceder a más información de estas carreras visitando el enlace. </p>
+                            </div>
+                            <div class="boton3">
+                                <a href="carreras-pregrado">
+                                    <button type="button" class="btn btn-dark">Más info</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col mb-4">
+                        <div class="card2 h-100">
+                            <img src="assets/posgrado.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Carreras Posgrado</h5>
+                                <p class="card-text">Los programas de posgrado están diseñados para obtener una especialidad acorde 
+                                    a tus sueños y habilidades profesionales. Se ofrecen maestrías y especialidades en diferentes áreas a 
+                                    los cuáles podrás acceder visitando las carreras en el enlace.</p>
+                            </div>
+                            <div class="boton3">
+                                <a href="#">
+                                    <button type="button" class="btn btn-dark">Más info</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col mb-4">
+                        <div class="card3 h-100">
+                            <img src="assets/educacion-continua.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Educacíón continua</h5>
+                                <p class="card-text">El Departamento de Educación Continua ofrece cursos de formación
+                                    distintos, y en algunos casos complementarios, a los de Pregrado y Posgrado; cursos
+                                    relativamente cortos (de menos de un año) con temas de actualidad, de interés
+                                    general.</p>
+                            </div>
+                            <div class="boton3">
+                                <a href="cursos">
+                                    <button type="button" class="btn btn-dark">Más info</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+
+        <div class="container-footer-all">
+            <div class="container-body">
+                <div class="column1">
+                    <h1>Horarios de atención</h1>
+                    <p>Lunes a viernes de 07h00 a 17h00
+                        <br>
+                        Sábados de 07h00 a 12h00</p>
+                    <h1>Más información</h1>
+                    <div class="row2">
+                        <img src="assets/mail.png">
+                        <label>info@unibe.edu.ec</label>
+                    </div>
+                </div>
+
+
+
+                <div class="column2">
+                    <div class="row1">                        
+                            <h1>Redes sociales</h1>                        
+                        <div class="col-md-12 py-5">
+
+                            <!-- Facebook -->
+                            <a class="fb-ic" href="https://www.facebook.com/unibe.edu.ec/" target="_blank">
+                                <i class="fab fa-facebook-f fa-lg white-text mr-3 fa-2x"><img
+                                        src="assets/facebook.png"></i>
+                            </a>
+                            <!-- Twitter -->
+                            <a class="tw-ic"
+                                href="https://twitter.com/unibe_ec?ref_src=twsrc%5Etfw&ref_url=http%3A%2F%2Flocalhost%2Fjoomla%2F"
+                                target="_blank">
+                                <i class="fab fa-twitter fa-lg white-text mr-3 fa-2x"> <img src="assets/twitter.png"></i>
+                            </a>
+                            <!-- Instagram +-->
+                            <a class="gplus-ic" href="https://www.instagram.com/unibe_ec/" target="_blank">
+                                <i class="fab fa-google-plus-g fa-lg white-text mr-3 fa-2x"> <img
+                                        src="assets/instagram.png"> </i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="column3">
+                    <h1>Información Contactos</h1>
+                    <div class="row2">
+                        <img src="assets/home.png">
+                        <label> Av. 9 de Octubre N°1178 y Sta. María</label>
+                    </div>
+
+                    <div class="row2">
+                        <img src="assets/phone.png">
+                        <label>2903571 /3
+                            <br>
+                            2 2903573
+                            <br>
+                            2 2230401
+                        </label>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container-footer">
+            <div class="footer">
+                <div class="copyright">
+                    © Universidad Iberoamericana del Ecuador 2020 Todos los Derechos Reservados <a href="">UNIBE</a>
+                </div>
+
+                <div class="information">
+                    <a href="">Términos y Condiciones</a> <a href="">Contacto</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
